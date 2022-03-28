@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: l Qingyan, l, LIC=50D12-9PPF8-49IG2-996W6-FX8RU-48U47
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Qingyan\Desktop\NRF2401遥控器e\USER\NRF24L01.uvprojx
+Project File Date:  05/02/2019
+
+<h2>Output:</h2>
+Build target 'NRF24L01'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling led.c...
+compiling key.c...
+compiling spi.c...
+compiling 24l01.c...
+compiling oled.c...
+compiling myiic.c...
+..\HARDWARE\IIC\myiic.c(58): warning:  #61-D: integer operation result is out of range
+        SDA_IN();      //SDA设置为输入  
+..\HARDWARE\IIC\myiic.c(58): warning:  #68-D: integer conversion resulted in a change of sign
+        SDA_IN();      //SDA设置为输入  
+..\HARDWARE\IIC\myiic.c(119): warning:  #61-D: integer operation result is out of range
+        SDA_IN();//SDA设置为输入
+..\HARDWARE\IIC\myiic.c(119): warning:  #68-D: integer conversion resulted in a change of sign
+        SDA_IN();//SDA设置为输入
+..\HARDWARE\IIC\myiic.c: 4 warnings, 0 errors
+compiling mpu6050.c...
+compiling inv_mpu.c...
+compiling inv_mpu_dmp_motion_driver.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+linking...
+..\OBJ\NRF24L01.axf: Error: L6218E: Undefined symbol MPU_IIC_Init (referred from mpu6050.o).
+..\OBJ\NRF24L01.axf: Error: L6218E: Undefined symbol MPU_IIC_Read_Byte (referred from mpu6050.o).
+..\OBJ\NRF24L01.axf: Error: L6218E: Undefined symbol MPU_IIC_Send_Byte (referred from mpu6050.o).
+..\OBJ\NRF24L01.axf: Error: L6218E: Undefined symbol MPU_IIC_Start (referred from mpu6050.o).
+..\OBJ\NRF24L01.axf: Error: L6218E: Undefined symbol MPU_IIC_Stop (referred from mpu6050.o).
+..\OBJ\NRF24L01.axf: Error: L6218E: Undefined symbol MPU_IIC_Wait_Ack (referred from mpu6050.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 6 error messages.
+"..\OBJ\NRF24L01.axf" - 6 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Qingyan\Desktop\NRF2401遥控器e\USER\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
